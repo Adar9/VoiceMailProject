@@ -21,10 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\components\GetApi.tsx" />
     <None Remove="ClientApp\src\components\MainTable.tsx" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\components\GetApi.tsx" />
     <TypeScriptCompile Include="ClientApp\src\components\MainTable.tsx" />
   </ItemGroup>
 

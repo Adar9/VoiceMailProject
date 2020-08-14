@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { MainTable } from './MainTable';
+import GetApi from './GetApi';
 
 const Home = () => (
   <div>
@@ -13,7 +14,9 @@ const Home = () => (
             to: '8/15/2020',
             duration: '1:30'
         }]} />
-
+        <GetApi Api={[{
+            get = 'hola mundo'
+        }]} />
   </div>
 );
 
