@@ -14,9 +14,9 @@ const Home = () => (
             to: '8/15/2020',
             duration: '1:30'
         }]} />
-        <GetApi Api={[{
-            get = 'hola mundo'
-        }]} />
+        <GetApi {
+            get :''
+        } />
   </div>
 );
 
